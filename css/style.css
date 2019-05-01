@@ -90,14 +90,14 @@
       color-stop(75%, rgba(22, 22, 22, 0.7)),
       to(#161616)
     ),
-    url(../img/bg-masthead.jpg);
+    url(../img/Antenne.png);
   background: linear-gradient(
       to bottom,
       rgba(22, 22, 22, 0.3) 0,
       rgba(22, 22, 22, 0.7) 75%,
       #161616 100%
     ),
-    url(../img/bg-masthead.jpg);
+    url(../img/Antenne.png);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -151,17 +151,18 @@
   border: 0;
 }
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #d8cdcd;
+  color: black;
 }
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #a8a8a8;
 }
 .btn-primary:focus {
-  background-color: #4f837f;
-  color: #fff;
+  background-color: #858484;
+  color: rgb(0, 0, 0);
 }
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #858585 !important;
 }
 .about-section {
   padding-top: 10rem;
@@ -192,7 +193,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #e6baba;
   }
 }
 .projects-section .project-text {
@@ -204,7 +205,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #e6baba;
     border-width: 0.25rem;
     width: 30%;
   }
@@ -212,10 +213,35 @@
 
 .contact-section {
   padding: 5rem 0 0;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 22, 22, 0.3)),
+      color-stop(75%, rgba(22, 22, 22, 0.7)),
+      to(#161616)
+    ),
+    url(../img/Pdlrep2.png);
+  background: linear-gradient(
+      to bottom,
+      rgba(22, 22, 22, 0.3) 0,
+      rgba(22, 22, 22, 0.7) 75%,
+      #161616 100%
+    ),
+    url(../img/Pdlrep2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid ##e6baba;
 }
 .contact-section .card h4 {
   font-size: 0.8rem;
@@ -224,7 +250,7 @@
   letter-spacing: 0.15rem;
 }
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: ##e6baba;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -235,7 +261,7 @@
   text-align: center;
   height: 3rem;
   width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.1), url(../img/PdlRep.jpeg);
   border-radius: 100%;
   line-height: 3rem;
   color: rgba(255, 255, 255, 0.3);
@@ -259,7 +285,7 @@ a:hover {
   color: #3c6360;
 }
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #3d3939 !important;
 }
 .bg-primary {
   background-color: #64a19d !important;
@@ -269,4 +295,12 @@ a:hover {
 }
 footer {
   padding: 5rem 0;
+}
+
+#img-presentation {
+  width: 50vw;
+}
+
+.white_background {
+  background-color: rgba(255, 255, 255, 0.5);
 }
